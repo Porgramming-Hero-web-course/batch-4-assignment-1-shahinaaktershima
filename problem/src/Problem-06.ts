@@ -8,4 +8,4 @@ const updateProfile=(profile:Profile,update:Partial<Profile>):Profile=>{
     return {...profile,...update}
 }
 const myProfile = { name: "Alice", age: 25, email: "alice@example.com" };
-console.log(updateProfile(myProfile, { email:"abc@gmail.com" }));
+console.log(updateProfile(myProfile, { name:'jihan' }));
